@@ -129,7 +129,7 @@ consumer.run = async (consumerData) => {
     //     const groupJoin = groupJoinFunc(GROUP_JOIN, dataId)
 
     //     //gathering data on the batch request event
-    //     const batchReqest = await startBatchProcessFun(START_BATCH_PROCESS, dataId)
+    //     const batchRequest = await startBatchProcessFun(START_BATCH_PROCESS, dataId)
 
           await heartbeat()
       }
